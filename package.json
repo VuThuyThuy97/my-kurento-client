@@ -1,0 +1,26 @@
+{
+  "name": "my-kurento-client",
+  "version": "1.0.0",
+  "description": "client for kurento ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VuThuyThuy97/my-kurento-client.git"
+  },
+  "author": "Thuy Vu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VuThuyThuy97/my-kurento-client/issues"
+  },
+  "homepage": "https://github.com/VuThuyThuy97/my-kurento-client#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "html5-websocket": "^2.0.4",
+    "reconnecting-websocket": "^3.2.2",
+    "uuid": "^3.3.2",
+    "ws": "^6.2.1"
+  }
+}
