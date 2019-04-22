@@ -1,4 +1,4 @@
-const classes = require('./lib/client');
+const classes = require('./index');
 
 let client = new classes.KCN('ws://localhost:8888/kurento')
 
