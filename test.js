@@ -1,6 +1,6 @@
 const classes = require('./index');
 
-let client = new classes.KCN('ws://localhost:8888/kurento')
+let client = new classes.KC('ws://localhost:8888/kurento')
 
 client.heartBeat((err, res) => {
   console.log(res === 'ok' ? `kms ❤️ ${client.upTime / 1000} sec` : `kms 💔 after ${client.upTime / 1000}`)

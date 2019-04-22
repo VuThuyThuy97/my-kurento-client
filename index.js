@@ -7,7 +7,7 @@ const MediaPipeline = require('./lib/media-element/media-pipeline')
 const WebRTCEndpoint = require('./lib/media-element/webrtc-endpoint')
 const PlayerEndpoint = require('./lib/media-element/player-endpoint')
 
-class KCN {
+class KC {
   constructor (wsAddress) {
     this.messageFactory = new MessageFactory()
     this.ws = new WSChannel(wsAddress)
